@@ -1,0 +1,21 @@
+# local virtualenv — recreate with: python3 -m venv .venv && pip install -r requirements.txt
+.venv/
+
+# bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# macOS
+.DS_Store
+
+# editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# optional: real workbooks with PII (uncomment if you keep samples in-repo)
+# *.xlsx
+# *.xlsm
